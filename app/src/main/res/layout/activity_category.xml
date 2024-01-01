@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/orange">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3">
+
+                    <LinearLayout
+                        android:id="@+id/le1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="right">
+
+                        <ImageView
+                            android:id="@+id/imgback"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_gravity="right"
+                            android:src="@drawable/back_arrow"
+                            android:text="Open Drawer"
+                            app:tint="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/le2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3">
+
+                        <TextView
+                            android:id="@+id/title"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" "
+                            android:textColor="@color/black"
+                            android:textSize="20sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/le3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="end">
+
+                        <androidx.appcompat.widget.SearchView
+                            android:id="@+id/searchView"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dp"
+                            android:visibility="visible"
+                            app:tint="@color/black" />
+
+                        <ImageView
+                            android:id="@+id/playstore"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:layout_toLeftOf="@id/likes"
+                            android:src="@drawable/googleplay"
+                            app:tint="@color/black" />
+
+                        <ImageView
+                            android:id="@+id/likes"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/like"
+                            app:tint="@color/black" />
+
+                        <ImageView
+                            android:id="@+id/share"
+                            android:layout_width="50dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/share"
+                            android:visibility="gone"
+                            app:tint="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </androidx.appcompat.widget.Toolbar>
+
+
+        </LinearLayout>
+
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/toolbar"
+            android:background="@color/orange"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/namesContainer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:orientation="horizontal">
+                <!-- TextViews will be added dynamically here -->
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <LinearLayout
+            android:id="@+id/fragment_container1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="10dp" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

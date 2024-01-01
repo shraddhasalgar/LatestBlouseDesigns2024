@@ -1,0 +1,62 @@
+<resources>
+
+    <string name="open">Open Navigation Drawer</string>
+    <string name="close">Close Navigation Drawer</string>
+
+
+    <string name="app_name">Latest Designs 2024</string>
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="first_fragment_label">First Fragment</string>
+
+    <string name="home">home.php</string>
+
+    <string name="back_neck">BACK NECK BLOUSE DESIGNS</string>
+    <string name="bridal">BRIDAL BLOUSE DESIGNS</string>
+    <string name="aari">AARI BLOUSE DESIGNS</string>
+    <string name="designe">DESIGNER BLOUSE DESIGNS</string>
+    <string name="kundan">KUNDAN WORK BLOUSE DESIGNS</string>
+    <string name="boat_neck">BOAT NECK BLOUSE DESIGNS</string>
+    <string name="silk">SILK SAREE BLOUSE DESIGNS</string>
+    <string name="net">NET BLOUSE DESIGNS</string>
+    <string name="embroidary">EMBROIDERY BLOUSE DESIGNS</string>
+    <string name="full_sleeve">FULL SLEEVE BLOUSE DESIGNS</string>
+    <string name="lehenga">LEHENGA BLOUSE DESIGNS</string>
+    <string name="sleevless">SLEEVELESS BLOUSE DESIGNS</string>
+    <string name="backless">BACKLESS BLOUSE DESIGNS</string>
+    <string name="stylish">STYLISH BLOUSE DESIGNS</string>
+    <string name="tassels">BLOUSE TASSELS DESIGNS</string>
+    <string name="velvet">VELVET BLOUSE DESIGNS</string>
+    <string name="high_neck">HIGH NECK BLOUSE DESIGNS</string>
+    <string name="paithani">PAITHANI BLOUSE DESIGNS</string>
+    <string name="v_neck">V NECK BLOUSE DESIGNS</string>
+    <string name="puff">PUFF SLEEVE BLOUSE DESIGNS</string>
+    <string name="frill">FRILL BLOUSE DESIGNS</string>
+    <string name="pink_color">PINK COLOR BLOUSE DESIGNS</string>
+    <string name="princess">PRINCESS CUT BLOUSE DESIGNS</string>
+    <string name="halter">HALTER BLOUSE DESIGNS</string>
+    <string name="patch_work">PATCH WORK BLOUSE DESIGNS</string>
+    <string name="baju">BAJU BLOUSE DESIGNS</string>
+    <string name="mirror_work">MIRROR WORK BLOUSE DESIGNS</string>
+    <string name="golden_color">GOLDEN COLOR BLOUSE DESIGNS</string>
+    <string name="choli">CHOLI BLOUSE DESIGNS</string>
+    <string name="half_collar">HALF COLLAR BLOUSE DESIGNS</string>
+    <string name="kerala">KERALA SAREE BLOUSE DESIGNS</string>
+    <string name="collar">COLLAR BLOUSE DESIGNS</string>
+    <string name="cut_work">CUT WORK BLOUSE DESIGNS</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+</resources>

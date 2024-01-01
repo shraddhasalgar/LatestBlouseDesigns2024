@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?><!-- res/layout/custom_dialog_layout.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Disclaimer"
+        android:textColor="@color/orange"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="All media used in this app is believed to be in the public domain. If you have any issue with the app or want to remove any media please contact us. Our team will cooperate with you and the removal of your media will be honored."
+        android:textColor="@color/black"
+        android:textSize="14sp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/ok"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right"
+        android:text="OK"
+        android:textColor="@color/orange"
+        android:textSize="18sp" />
+
+
+    <!-- Add your UI components here (e.g., TextView, EditText, Button, etc.) -->
+
+</LinearLayout>

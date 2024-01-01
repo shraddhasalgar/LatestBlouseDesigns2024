@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="orange">#00D2FF</color>
+
+
+    <color name="colorPrimaryLight">#FFFFFF</color>
+    <color name="colorPrimaryDarkLight">#F0F0F0</color>
+    <color name="colorAccentLight">#007ACC</color>
+
+    <color name="colorPrimaryDark">#121212</color>
+    <color name="colorPrimaryDarkDark">#000000</color>
+    <color name="colorAccentDark">#00BCD4</color>
+
+    <color name="my_light_primary">#FF9800</color>
+
+
+</resources>

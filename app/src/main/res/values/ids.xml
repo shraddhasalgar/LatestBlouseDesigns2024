@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="exit" type="id" />
+    <item name="sharethis" type="id" />
+    <item name="privacy" type="id" />
+    <item name="disclaimer" type="id" />
+    <item name="contact" type="id" />
+    <item name="rateus" type="id" />
+    <item name="heartIcon1" type="id" />
+    <item name="imageView1" type="id" />
+    <item name="heartIcon" type="id" />
+    <item name="heartIcon2" type="id" />
+    <item name="itemCount" type="id" />
+</resources>

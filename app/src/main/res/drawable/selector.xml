@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/drawable/selector_drawable.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Drawable when the ToggleButton is checked (selected) -->
+    <item android:drawable="@drawable/like"
+        android:state_checked="true"
+        
+        />
+
+    <!-- Drawable when the ToggleButton is not checked (not selected) -->
+    <item android:drawable="@drawable/favourite" />
+</selector>
